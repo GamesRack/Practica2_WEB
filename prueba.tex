@@ -1,0 +1,68 @@
+\documentclass{article}
+
+% Paquetes comunes
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{hyperref}
+
+\title{Mi Primer Documento Co56546mpleto en \LaTeX}
+\author{Nombre Apellido}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este es un documento de ejemplo para probar una instalación de \LaTeX, que incluye texto, una imagen, una tabla y una referencia bibliográfica. El objetivo es verificar que la compilación se realiza correctamente y que todos los elementos se muestran en el PDF final.
+\end{abstract}
+
+\section{Intghjrocción}
+Este documento ha sido creado para demostrar las capacidades básicas de \LaTeX, un sistema de composición de textos muy utilizado en el ámbito académico y científico.
+
+\subsection{Texto de ejemplo}
+Aquí tenemos algo de texto simple. Podemos usar negritas con \textbf{texto en negritas} y cursivas con \textit{texto en cursivas}. También podemos citar una referencia de la bibliografía, como se muestra en la referencia \cite{greenwade93}.
+
+\section{Imágenes y figuras}
+A continuación, se inserta una figura. Para que funcione, debes colocar un archivo de imagen llamado \texttt{logo.png} en la misma carpeta que este archivo. Si no tienes una, puedes descargar una pequeña imagen o simplemente omitir esta sección.
+
+
+
+En la figura \ref{fig:logo} podemos ver una ilustración. La referencia `\ref{fig:logo}` genera el número de la figura.
+
+\section{Tablas}
+También es posible crear tablas profesionales. La tabla \ref{tab:ejemplo} muestra una tabla de ejemplo con datos de tres columnas.
+
+\begin{table}[h]
+    \centering
+    \caption{Tabla de ejemplo.}
+    \label{tab:ejemplo}
+    \begin{tabular}{lcr}
+        \toprule
+        Encabezado 1 & Encabezado 2 & Encabezado 3 \\
+        \midrule
+        Fila 1 & 123 & 456 \\
+        Fila 2 & 789 & 1011 \\
+        Fila 3 & 1213 & 1415 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{Bibliografía}
+Para que la bibliografía funcione, necesitas crear un archivo `.bib` con el mismo nombre que el archivo `.tex` y usar la misma referencia.
+
+\begin{thebibliography}{99}
+
+\bibitem{greenwade93}
+George D. Greenwade.
+\newblock The Comprehensive \TeX\ Archive Network (CTAN).
+\newblock {\em TUGboat}, 14(3):342--351, 1993.
+
+\end{thebibliography}
+
+\end{document}
