@@ -1,0 +1,63 @@
+Guía para Colaborar en Documentos LaTeX
+1. Prepara tu Entorno de Trabajo
+Para trabajar con documentos LaTeX, necesitas tres cosas:
+
+Visual Studio Code: Un editor de código gratuito.
+
+Una distribución de LaTeX: Un conjunto de herramientas que compilan tu código en PDF. Para Windows, la más recomendada es MiKTeX.
+
+Un intérprete de Perl: Un programa que latexmk (una herramienta de compilación) usa para funcionar. Para Windows, la mejor opción es Strawberry Perl.
+
+Si no tienes estos programas, sigue estas instrucciones:
+
+Instala MiKTeX: Descarga y ejecuta el instalador desde https://miktex.org/download. Asegúrate de seleccionar la opción para añadir MiKTeX a la variable de entorno PATH.
+
+Instala Strawberry Perl: Descarga y ejecuta el instalador desde https://strawberryperl.com/.
+
+Reinicia tu PC después de instalar MiKTeX y Perl para que los cambios en el sistema se apliquen correctamente.
+
+2. Instala la Extensión de LaTeX Workshop en VS Code
+Esta extensión es fundamental para trabajar cómodamente con LaTeX.
+
+Abre Visual Studio Code.
+
+Ve al menú de Extensiones (Ctrl + Shift + X).
+
+Busca "LaTeX Workshop" e instálala.
+
+3. Compilar y Ver el Documento
+La extensión te permite compilar el documento y ver el resultado en tiempo real.
+
+Abre el archivo .tex del proyecto.
+
+Para compilar, usa el atajo de teclado Ctrl + Alt + B o haz clic en el botón de "Build" en la barra de herramientas.
+
+Para ver el PDF en tiempo real, haz clic derecho en el editor de código y selecciona View LaTeX PDF in VSCode. A partir de ahora, cada vez que guardes el documento (Ctrl + S), el PDF se actualizará automáticamente.
+
+4. Cómo Insertar Imágenes en el Documento
+Para añadir una imagen a nuestro documento, sigue estos dos pasos:
+
+Guarda la imagen en la carpeta del proyecto. Lo más recomendable es crear una subcarpeta llamada imagenes (o figures) y guardar todas las imágenes allí. Por ejemplo, imagenes/mi_diagrama.png.
+
+Agrega el código en tu archivo .tex usando el entorno figure. Asegúrate de usar el paquete graphicx en el preámbulo de tu documento (\usepackage{graphicx}).
+
+Aquí tienes un ejemplo del código que debes usar, asumiendo que tu imagen se llama mi_diagrama.png y está en la carpeta imagenes:
+
+Fragmento de código
+
+\section{Inclusión de un Diagrama}
+Aquí podemos ver un diagrama importante que explica el proceso, como se muestra en la Figura \ref{fig:diagrama}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{imagenes/mi_diagrama.png}
+    \caption{Un diagrama del proceso.}
+    \label{fig:diagrama}
+\end{figure}
+\includegraphics: Es el comando que incluye la imagen. Dentro de las llaves, va la ruta relativa a la imagen (en este caso, imagenes/mi_diagrama.png).
+
+width=0.8\linewidth: Ajusta el ancho de la imagen para que sea el 80% del ancho del texto. Puedes cambiarlo según necesites.
+
+\caption y \label: Son importantes para que puedas referenciar la imagen en el texto usando \ref{fig:diagrama}.
+
+Ahora ya tienes todo lo necesario para trabajar en el proyecto
