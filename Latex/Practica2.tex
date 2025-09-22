@@ -1,37 +1,71 @@
 \documentclass[12pt]{article}
-
-% --- Paquetes comunes ---
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage{graphicx} % Required for inserting images
 \usepackage[spanish]{babel}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{hyperref}
-\usepackage{graphicx} % <--- ¡NUEVO! Paquete para incluir imágenes
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{geometry}
+\usepackage{setspace}
 \usepackage{float}
-
-% --- Configuración de márgenes (opcional, para una mejor presentación) ---
-\usepackage[margin=2.5cm]{geometry}
-
-% --- Información del documento ---
-\title{Práctica 1: Nombre de tu Tarea}
-\author{
-  Nombre del Estudiante \\
-  \texttt{corredsdholaaaao@ejemplo.com}
-  \and
-  Nombre del Docente \\
-  Materia
-}
-\date{\today}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref}
+\usepackage{hyperref}
+\title{Practica 2 - WEB}
+\author{Cerón Samperio Lizeth Montserrat}
+\date{September 2025}
 
 \begin{document}
+\definecolor{azul}{RGB}{0, 168, 255}
+\definecolor{azul2}{RGB}{7, 74, 163}
 
-% --- Portada ---
-\maketitle
-\thispagestyle{empty} % No pone el número de página en la portada
+\begin{titlepage}
+    \thispagestyle{empty}
+    \newgeometry{left=2cm, right=1cm, top=2cm, bottom=2cm}
+    
+    % Gráfico de fondo corregido para ser fiable
+    \begin{tikzpicture}[overlay, remember picture, fill opacity=0.7]
+        \begin{scope}[shift={(current page.center)}]
+            \rotatebox{-45}{\fill[azul2] (5, -15) rectangle (12, 15);}
+            \rotatebox{-45}{\fill[azul] (3, -15) rectangle (5, 15);}
+        \end{scope}
+    \end{tikzpicture}
+    
+    \begin{spacing}{1.5}
+        {\Huge \bfseries \noindent PRÁCTICA 2}
+        \vspace{10pt}
 
-\clearpage
-\pagenumbering{arabic} % Empieza a numerar las páginas a partir de aquí
+        {\LARGE MÉTODOS HTTP: PUT, PATCH, DELETE, GET}
+        
+        \vspace{1cm}
+        
+        {\Large Equipo:} \\
+        {\Large Beltrán Saucedo Axel Alejandro} \\
+        {\Large Cerón Samperio Lizeth Montserrat} \\
+        {\Large Higuera Pineda Angel Abraham} \\
+        {\Large Lorenzo Silva Abad Rey} \\
+        {\Large 4BV1}
+    \end{spacing}
+    
+    \vspace{1.5cm}
+
+    \begin{minipage}{7.5cm} % Ancho ajustado
+        {\Large ESCUELA SUPERIOR DE CÓMPUTO}
+    \end{minipage}
+
+    \vfill % Empuja el contenido hacia el final de la página
+
+    \begin{flushleft}
+        {\Large \color{black}
+        % Comando \textbf corregido con llaves
+        \textbf{TECNOLOGÍAS PARA EL DESARROLLO DE APLICACIONES WEB}}
+        
+        \vspace{0.5cm}
+        
+        25/09/2025
+    \end{flushleft}
+    \vspace{1cm}
+\end{titlepage}
 
 \section{Implementación}
 \begin{figure}[h!]
