@@ -8,6 +8,7 @@
 \usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{graphicx} % <--- ¡NUEVO! Paquete para incluir imágenes
+\usepackage{float}
 
 % --- Configuración de márgenes (opcional, para una mejor presentación) ---
 \usepackage[margin=2.5cm]{geometry}
@@ -32,48 +33,41 @@
 \clearpage
 \pagenumbering{arabic} % Empieza a numerar las páginas a partir de aquí
 
-\section{Introducción}
-\label{sec:introduccion}
-Este documento presenta la resolución de la Práctica 1. En esta sección se describen los objetivos de la práctica y se contextualiza el problema a resolver. El propósito principal es aplicar los conceptos aprendidos en clase para demostrar el entendimiento de los temas.
+\section{Implementación}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/Captura1_librerias.png}
+\end{figure}
 
-\section{Desarrollo de la Práctica}
-\label{sec:desarrollo}
-Aquí se detalla el trabajo realizado para la práctica. Puedes usar subsecciones para organizar tu contenido de manera lógica.
+En este apartado se tienen los modulos a utilziar para el funcionamiento de la practica.\\
+FastApi nos permite contruir APIS de manera rapida y sencilla, permitiendo definir rutas y manejar solicitudes HTTP de manera eficiente.\\
+Las rutas que utilizaremos en esta practica son: GET, POST, PUT y DELETE.\\
+Utilizamos Pydantic para validad entradas y para la creacion de un modelo de datos, que en es este caso sera para tener la id de un objeto, y su respectivo contenido.\\
+Optional y list son tipos de datos que nos permiten definir atributos que pueden ser opcionales y listas respectivamente.\\
 
-\subsection{Problema 1}
-\label{subsec:problema1}
-Describe el primer problema y el enfoque que usaste para resolverlo. Puedes incluir código, si es necesario, usando el entorno \texttt{verbatim} o el paquete \texttt{listings}.
-
-\begin{verbatim}
-# Código de ejemplo en Python
-def saludo(nombre):
-    print(f"Hola, {nombre}")
-
-saludo("mundo")
-\end{verbatim}
-
-\subsection{Problema 2}
-\label{subsec:problema2}
-Explica el segundo problema y la metodología que aplicaste. Usa ecuaciones para mostrar tus cálculos. Las ecuaciones pueden ser inline, como $E=mc^2$, o en un entorno separado para que se vean mejor:
-
-\begin{equation}
-    x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-    \label{eq:formula_cuadratica}
-\end{equation}
-La ecuación \eqref{eq:formula_cuadratica} es un ejemplo de cómo se pueden insertar fórmulas matemáticas.
-
-\section{Inclusión de Imagen}
-Para ilustrar un punto importante de la práctica, hemos incluido una imagen. Se puede hacer referencia a la misma en el texto, como se ve en la Figura \ref{fig:mi_imagen}.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.7\linewidth]{Imagen.png} % <--- ¡NUEVO! Comando para insertar la imagen
-    \caption{Una imagen para ilustrar el trabajo de la práctica.}
-    \label{fig:mi_imagen}
+    \includegraphics[width=1\textwidth]{Imagenes/Captura2_corazon del programa.png}
 \end{figure}
 
-\section{Conclusiones}
-\label{sec:conclusiones}
-En esta sección se resumen los resultados obtenidos en la práctica. Discute si los objetivos iniciales se cumplieron y cualquier aprendizaje o dificultad que encontraste durante el proceso.
+Iniciamos con el corazon de nuestro programa, que es la instancia de FastAPI, en donde definimos el nombre y la descripcion de la API.\\
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/Captura3_esctructuradatos.png}
+\end{figure}
+
+Gracias a Pydantic, podemos crear una estructura de datos para nuestros objetos a utilizar.
+Se tiene un id de tipo entero, este servira para identificar cada objeto.
+Cda objeto tiene un contenido de datos, en este caso cuenta con ganancia y perso, ambos de tipo flotante.
+Además se tiene una estrcutura para actualizar los datos parcialmente, los campos son opcionales, esto es debido a que no es obligatorio actualizar ambos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/Captura4_variablesGlobales.png}
+\end{figure}
+Utilizamos variables globales para almacenar los objetos y llevar un control del id.
+El id se inicializa en 0, y se incrementa cada vez que se crea un nuevo objeto.
+Los objetos se almacenan en una lista, que inicialmente esta vacia.
 \end{document}

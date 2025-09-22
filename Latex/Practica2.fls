@@ -113,6 +113,8 @@ INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphi
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
@@ -168,39 +170,37 @@ INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt144
 INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT .\Imagen.png
-INPUT .\Imagen.png
-INPUT .\Imagen.png
-INPUT .\Imagen.png
-INPUT .\Imagen.png
-INPUT .\Imagen.png
-INPUT .\Imagen.png
+INPUT .\Imagenes\Captura1_librerias.png
+INPUT .\Imagenes\Captura1_librerias.png
+INPUT .\Imagenes\Captura1_librerias.png
+INPUT .\Imagenes\Captura1_librerias.png
+INPUT .\Imagenes\Captura1_librerias.png
+INPUT .\Imagenes\Captura1_librerias.png
+INPUT .\Imagenes\Captura1_librerias.png
+INPUT .\Imagenes\Captura2_corazon del programa.png
+INPUT .\Imagenes\Captura2_corazon del programa.png
+INPUT .\Imagenes\Captura2_corazon del programa.png
+INPUT .\Imagenes\Captura2_corazon del programa.png
+INPUT .\Imagenes\Captura2_corazon del programa.png
+INPUT .\Imagenes\Captura2_corazon del programa.png
+INPUT .\Imagenes\Captura2_corazon del programa.png
+INPUT .\Imagenes\Captura3_esctructuradatos.png
+INPUT .\Imagenes\Captura3_esctructuradatos.png
+INPUT .\Imagenes\Captura3_esctructuradatos.png
+INPUT .\Imagenes\Captura3_esctructuradatos.png
+INPUT .\Imagenes\Captura3_esctructuradatos.png
+INPUT .\Imagenes\Captura3_esctructuradatos.png
+INPUT .\Imagenes\Captura3_esctructuradatos.png
+INPUT .\Imagenes\Captura4_variablesGlobales.png
+INPUT .\Imagenes\Captura4_variablesGlobales.png
+INPUT .\Imagenes\Captura4_variablesGlobales.png
+INPUT .\Imagenes\Captura4_variablesGlobales.png
+INPUT .\Imagenes\Captura4_variablesGlobales.png
+INPUT .\Imagenes\Captura4_variablesGlobales.png
+INPUT .\Imagenes\Captura4_variablesGlobales.png
 INPUT Practica2.aux
 INPUT .\Practica2.out
 INPUT .\Practica2.out
-INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
-INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
-INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
-INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
@@ -211,11 +211,3 @@ INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecr
 INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
 INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
 INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb

@@ -22,7 +22,7 @@ from pydantic import BaseModel
 from typing import Optional, List
 
 #Creamos la instancia de FastAPI
-#Es el corazon de nyestro programa (API)
+#Es el corazon de nuestro programa (API)
 app = FastAPI(
     #Nombre y descripcion de la API
     title= "Practica 2: Metodos GET, PUT, POST, DELETE Y PATCH",
