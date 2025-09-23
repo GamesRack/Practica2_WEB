@@ -279,6 +279,7 @@ INPUT C:\Users\Games\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmss12.tfm
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmssbx10.tfm
+INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmssbx10.tfm
 INPUT .\Imagenes\Diagrama UML.png
 INPUT .\Imagenes\Diagrama UML.png
 INPUT .\Imagenes\Diagrama UML.png
@@ -314,6 +315,11 @@ INPUT .\Imagenes\Captura4_variablesGlobales.png
 INPUT .\Imagenes\Captura4_variablesGlobales.png
 INPUT .\Imagenes\Captura4_variablesGlobales.png
 INPUT .\Imagenes\Captura4_variablesGlobales.png
+INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
+INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
+INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
+INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt12.tfm
+INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rmtt.enc
 INPUT Practica2.aux
 INPUT .\Practica2.out
 INPUT .\Practica2.out
@@ -323,3 +329,5 @@ INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss17.
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss17.pfb
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
+INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt12.pfb
+INPUT C:\Users\Games\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt12.pfb
