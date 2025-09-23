@@ -172,9 +172,10 @@ Además se tiene una estrcutura para actualizar los datos parcialmente, los camp
     \centering
     \includegraphics[width=1\textwidth]{Imagenes/Captura4_variablesGlobales.png}
 \end{figure}
+
 Utilizamos variables globales para almacenar los objetos y llevar un control del id.
 El id se inicializa en 0, y se incrementa cada vez que se crea un nuevo objeto.
-Los objetos se almacenan en una lista, que inicialmente esta vacia.
+Los objetos se almacenan en una lista, que inicialmente esta vacia.\\
 
 \begin{figure}[H]
     \centering
@@ -221,6 +222,22 @@ Funcionara igual que PUT, con la diferencia de que este solo actualizara los cam
 Como ultimo metodo tenemos DELETE('/items') el cual tendra la tarea de borrar los items.
 Recorrera la lista hasta encontrar el ID del item que queremos borrar, y si lo encuentra lo eliminara de la lista.
 Y si no lo encuentra, arrojara error 404.
+Para poder iniciar nuestra API, se debe utilizar un comando en la terminal: python -m uvicorn Codigo.Practica2:app --reload.
+Existen diferentes maneras de iniciar la API, pero esta es la que se utilizo en este caso.
+Una cosa interesante es que debemos especificar en el comando que trabajaremos con python, ya que sin el detecta como desconocido a uvicorn.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/Captura_consola2.png}
+    \caption{Error si no se especifica que se trabajara con python}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/Captura_consola1.png}
+    \caption{Resultado correcto al iniciar la API}
+\end{figure}
+Cuando se inicia la api, en la consola podemos visualizar la direccion en la que se esta ejecutando, en este caso es de manera local, por lo cual se ustiliza: \url{http://127.0.0.1:8000}
+Además podemos ver las peticiones que se le realizan a la pagina y si hubo un error o se realizo correctamente.
 
 \begin{thebibliography}{99}
 
