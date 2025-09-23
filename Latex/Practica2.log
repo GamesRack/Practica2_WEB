@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.21)  23 SEP 2025 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.21)  23 SEP 2025 13:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -659,48 +659,58 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.99     \item V
                 alidar automaticamente los datos de entrada y salida utiliza... [1]
-<Imagenes/Diagrama UML.png, id=38, 913.61325pt x 455.90324pt>
-File: Imagenes/Diagrama UML.png Graphic file (type png)
-<use Imagenes/Diagrama UML.png>
-Package pdftex.def Info: Imagenes/Diagrama UML.png  used on input line 116.
-(pdftex.def)             Requested size: 430.00462pt x 214.58063pt.
- [2]
-<Imagenes/Captura1_librerias.png, id=44, 1734.48pt x 505.89pt>
-File: Imagenes/Captura1_librerias.png Graphic file (type png)
-<use Imagenes/Captura1_librerias.png>
-Package pdftex.def Info: Imagenes/Captura1_librerias.png  used on input line 121.
-(pdftex.def)             Requested size: 430.00462pt x 125.41464pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--129
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-[3 <./Imagenes/Diagrama UML.png> <./Imagenes/Captura1_librerias.png>]
+[2]
+<Imagenes/Diagrama UML.png, id=43, 913.61325pt x 455.90324pt>
+File: Imagenes/Diagrama UML.png Graphic file (type png)
+<use Imagenes/Diagrama UML.png>
+Package pdftex.def Info: Imagenes/Diagrama UML.png  used on input line 139.
+(pdftex.def)             Requested size: 430.00462pt x 214.58063pt.
+<Imagenes/Captura1_librerias.png, id=45, 1734.48pt x 505.89pt>
+File: Imagenes/Captura1_librerias.png Graphic file (type png)
+<use Imagenes/Captura1_librerias.png>
+Package pdftex.def Info: Imagenes/Captura1_librerias.png  used on input line 144.
+(pdftex.def)             Requested size: 430.00462pt x 125.41464pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--152
+
+ []
+
+[3 <./Imagenes/Diagrama UML.png>]
 <Imagenes/Captura2_corazon del programa.png, id=51, 2057.6875pt x 467.7475pt>
 File: Imagenes/Captura2_corazon del programa.png Graphic file (type png)
 <use Imagenes/Captura2_corazon del programa.png>
-Package pdftex.def Info: Imagenes/Captura2_corazon del programa.png  used on input line 133.
+Package pdftex.def Info: Imagenes/Captura2_corazon del programa.png  used on input line 156.
 (pdftex.def)             Requested size: 430.00462pt x 97.74454pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 <Imagenes/Captura3_esctructuradatos.png, id=52, 1702.36pt x 734.745pt>
 File: Imagenes/Captura3_esctructuradatos.png Graphic file (type png)
 <use Imagenes/Captura3_esctructuradatos.png>
-Package pdftex.def Info: Imagenes/Captura3_esctructuradatos.png  used on input line 140.
+Package pdftex.def Info: Imagenes/Captura3_esctructuradatos.png  used on input line 163.
 (pdftex.def)             Requested size: 430.00462pt x 185.5917pt.
-<Imagenes/Captura4_variablesGlobales.png, id=53, 1238.6275pt x 391.4625pt>
+[4 <./Imagenes/Captura1_librerias.png> <./Imagenes/Captura2_corazon del programa.png>]
+<Imagenes/Captura4_variablesGlobales.png, id=59, 1238.6275pt x 391.4625pt>
 File: Imagenes/Captura4_variablesGlobales.png Graphic file (type png)
 <use Imagenes/Captura4_variablesGlobales.png>
-Package pdftex.def Info: Imagenes/Captura4_variablesGlobales.png  used on input line 150.
+Package pdftex.def Info: Imagenes/Captura4_variablesGlobales.png  used on input line 173.
 (pdftex.def)             Requested size: 430.00462pt x 135.9029pt.
-[4 <./Imagenes/Captura2_corazon del programa.png> <./Imagenes/Captura3_esctructuradatos.png>]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 158.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 182.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 182.
  (C:\Users\Games\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [5{C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc} <./Imagenes/Captura4_variablesGlobales.png>] (Practica2.aux
+) [5{C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc} <./Imagenes/Captura3_esctructuradatos.png> <./Imagenes/Captura4_variablesGlobales.png>] [6] (Practica2.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -712,17 +722,17 @@ Package rerunfilecheck Info: File `Practica2.out' has not changed.
 (rerunfilecheck)             Checksum: A728FF607CD6295078802C96CA81762D;474.
  ) 
 Here is how much of TeX's memory you used:
- 21770 strings out of 474486
- 409408 string characters out of 5743755
+ 21785 strings out of 474486
+ 409548 string characters out of 5743755
  1935542 words of memory out of 5000000
- 43675 multiletter control sequences out of 15000+600000
- 594234 words of font info for 57 fonts, out of 8000000 for 9000
+ 43682 multiletter control sequences out of 15000+600000
+ 599718 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,87p,542b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Practica2.pdf (6 pages, 451364 bytes).
+ 84i,6n,87p,542b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Practica2.pdf (7 pages, 495422 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
+ 124 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 

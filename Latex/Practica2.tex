@@ -86,12 +86,12 @@ El objetivo de la práctica es implementar los métodos HTTP: PUT, PATCH, GET, D
 \subsection*{FastAPI:}
 FastAPI es un framework web para construir APIs en Python, lanzado en diciembre de 2018 por Sebastián Ramírez, un desarrollador colombiano. Está diseñado para ser:
 \begin{itemize}
-    \item Rápido: comparable en rendimiento a Node.js y Go gracias a su base en ASGI (Asynchronous Server Gateway Interface).
-    \item Moderno: aprovecha las anotaciones de tipo de Python 3.6  
-    \item Automático: genera documentación interactiva con Swagger UI y ReDoc.
-    \item Seguro y robusto: ideal para APIs que requieren validación estricta y autentic
+    \item \textbf{Rápido:} comparable en rendimiento a Node.js y Go gracias a su base en ASGI (Asynchronous Server Gateway Interface).
+    \item \textbf{Moderno:} aprovecha las anotaciones de tipo de Python 3.6  
+    \item \textbf{Automático:} genera documentación interactiva con Swagger UI y ReDoc.
+    \item \textbf{Seguro y robusto:} ideal para APIs que requieren validación estricta y autentic
 \end{itemize}
-Pero que hace realmente FastAPI?
+Pero,  ¿qué hace realmente FastAPI?
 
 Nos permite crear endpoints o rutas para nuestra API, que pueden ser accedidas mediante los diferentes metodos HTTP, como GET, POST, PUT, DELETE, entre otros.\\
 Además nos permite:
@@ -102,12 +102,35 @@ Además nos permite:
     \item Generar documentación interactiva sin esfuerzo.
 \end{itemize}
 
-Pero para que lo usamos realmente?\\
+Pero, ¿para qué lo usamos realmente?\\
 Usamos FastAPI para crear aplicaciones que se comunican por internet, como por ejemplo:
 \begin{itemize}
     \item Aplicaciones web que mandan y reciben datos (como una app de clima o una tienda en línea).
     \item Sistemas que conectan con modelos de inteligencia artificial (como chatbots o análisis de imágenes).
     \item Servicios que otras apps usan para pedir información (como “dame los datos del usuario” o “guárdame esta foto”).
+\end{itemize}
+
+\subsection*{HTTP:}
+FastAPI utiliza HTTP para comunicarase entre la aplicación web y el cliente. Cada vez que alguien hace una petición (Por ejemplo: GET, POST, etc) a nuestra API, FastAPI recibe esa petición, la procesa y responde con los datos solicitados.\\
+
+¿Qué es HTTP?\\
+HTTP (Hypertext Transfer Protocol). Es un lenaguaje utilziado para realizar una comunicación entre un cliente (como un navegador web o una app móvil) y un servidor (donde vive la aplicación web).\\
+Funciona con peticiones y respuestas, aglunas de ellas son:
+\begin{itemize}
+    \item \textbf{GET:} Solicita datos de un recurso específico.
+    \item \textbf{POST:} Envía datos para crear un nuevo recurso.
+    \item \textbf{PUT:} Actualiza completamente un recurso existente.
+    \item \textbf{PATCH:} Actualiza parcialmente un recurso existente.
+    \item \textbf{DELETE:} Elimina un recurso específico.
+\end{itemize}
+
+Tambien se cuentan con las HTTP Exceptions, que son respuestas a errores que ocurren cuando algo sale mal en la comunicación entre el cliente y el servidor.\\
+Algunos ejemplos son:
+\begin{itemize}
+    \item \textbf{404:} No encontrado
+    \item \textbf{403:} Prhohibido
+    \item \textbf{500:} Error interno del servidor
+    \item \textbf{400:} Solicitud incorrecta  
 \end{itemize}
 
 \section{Diagrama UML}
@@ -154,8 +177,17 @@ El id se inicializa en 0, y se incrementa cada vez que se crea un nuevo objeto.
 Los objetos se almacenan en una lista, que inicialmente esta vacia.
 
 
-\begin{thebibliography}{1}
-\bibitem{ref1} Métodos de petición HTTP. (s/f). MDN Web Docs. Recuperado el 23 de septiembre de 2025, de \url{https://developer.mozilla.org/es/docs/Web/HTTP/Reference/Methods}
+\begin{thebibliography}{99}
+
+\bibitem{ref1} M\'etodos de petici\'on HTTP. (s/f). \textit{MDN Web Docs}. Recuperado el 23 de septiembre de 2025, de \url{https://developer.mozilla.org/es/docs/Web/HTTP/Reference/Methods}
+
+\bibitem{ref2} Ram\'irez Monta\~no, S. (s.f.). ``Historia, dise\~no y futuro de FastAPI''. \textit{FastAPI}. Recuperado el 23 de septiembre de 2025, de \url{https://fastapi.tiangolo.com/es/history-design-future/}
+
+\bibitem{ref3} Wikipedia. (2025, julio 11). ``FastAPI''. \textit{Wikipedia, la enciclopedia libre}. Recuperado el 23 de septiembre de 2025, de \url{https://es.wikipedia.org/wiki/FastAPI}
+
+\bibitem{ref4} Lubanovic, B. (2019). \textit{Introducing Python: Modern Computing in Simple Packages} (2\textsuperscript{a} ed.). O'Reilly Media. ISBN: 9781492051367
+
+\bibitem{ref5} Linode Guides \& Tutorials. (2021, agosto 6). ``Document a FastAPI App with OpenAPI''. \textit{Linode}. Recuperado el 23 de septiembre de 2025, de \url{https://www.linode.com/docs/guides/document-a-fastapi-app-with-openapi/}
 
 \end{thebibliography}
 \end{document}
