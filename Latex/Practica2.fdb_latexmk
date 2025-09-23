@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758657155.08802 "c:/Users/Games/Documents/Codigos/Python/Practica2_Web/Practica2_WEB/Latex/Practica2.tex" "Practica2.pdf" "Practica2" 1758657156.93306 0
+["pdflatex"] 1758658476.13182 "c:/Users/Games/Documents/Codigos/Python/Practica2_Web/Practica2_WEB/Latex/Practica2.tex" "Practica2.pdf" "Practica2" 1758658478.34748 0
   "C:/Users/Games/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1758554177 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Games/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1758435296 24225046 3de9fab330c0d264c08cdcc3e3c21f49 ""
   "C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -161,11 +161,13 @@
   "Imagenes/Captura2_corazon del programa.png" 1758552437 109325 81ac19792b8ab14d50784b3f200eec47 ""
   "Imagenes/Captura3_esctructuradatos.png" 1758552671 167363 8c10b4b9ab588d88277d9fc7b948d201 ""
   "Imagenes/Captura4_variablesGlobales.png" 1758553355 63761 51f1f0457b41beb200fca992ae5804ae ""
+  "Imagenes/Captura_consola1.png" 1758657808 56689 89ac15876b10a67c58619f3236dde485 ""
+  "Imagenes/Captura_consola2.png" 1758658112 24821 cbb47edb378069833e95dd360b1e5838 ""
   "Imagenes/Diagrama UML.png" 1758568403 98336 91cdd235e6ab987a81a1feff4ce1aac1 ""
-  "Practica2.aux" 1758657156 921 107f24c4e06d8b710d9b654c5ceb3530 "pdflatex"
-  "Practica2.out" 1758657156 474 a728ff607cd6295078802c96ca81762d "pdflatex"
-  "Practica2.tex" 1758657154 9847 116bdb9637df5508ddfbc4bd0520bbf4 ""
-  "c:/Users/Games/Documents/Codigos/Python/Practica2_Web/Practica2_WEB/Latex/Practica2.tex" 1758657154 9847 116bdb9637df5508ddfbc4bd0520bbf4 ""
+  "Practica2.aux" 1758658478 1232 681b90f396f3a92982f3be73b50f7711 "pdflatex"
+  "Practica2.out" 1758658478 474 a728ff607cd6295078802c96ca81762d "pdflatex"
+  "Practica2.tex" 1758658475 10878 6694c23f500ec445cecc88dba5437337 ""
+  "c:/Users/Games/Documents/Codigos/Python/Practica2_Web/Practica2_WEB/Latex/Practica2.tex" 1758658475 10878 6694c23f500ec445cecc88dba5437337 ""
   (generated)
   "Practica2.aux"
   "Practica2.log"

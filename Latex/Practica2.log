@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.21)  23 SEP 2025 13:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.21)  23 SEP 2025 14:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -705,12 +705,29 @@ File: Imagenes/Captura4_variablesGlobales.png Graphic file (type png)
 <use Imagenes/Captura4_variablesGlobales.png>
 Package pdftex.def Info: Imagenes/Captura4_variablesGlobales.png  used on input line 173.
 (pdftex.def)             Requested size: 430.00462pt x 135.9029pt.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 182.
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 182.
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
+
+ []
+
+<Imagenes/Captura_consola2.png, id=60, 1006.35976pt x 116.23425pt>
+File: Imagenes/Captura_consola2.png Graphic file (type png)
+<use Imagenes/Captura_consola2.png>
+Package pdftex.def Info: Imagenes/Captura_consola2.png  used on input line 185.
+(pdftex.def)             Requested size: 430.00462pt x 49.66582pt.
+[5 <./Imagenes/Captura3_esctructuradatos.png> <./Imagenes/Captura4_variablesGlobales.png>]
+<Imagenes/Captura_consola1.png, id=67, 754.017pt x 204.765pt>
+File: Imagenes/Captura_consola1.png Graphic file (type png)
+<use Imagenes/Captura_consola1.png>
+Package pdftex.def Info: Imagenes/Captura_consola1.png  used on input line 191.
+(pdftex.def)             Requested size: 430.00462pt x 116.77661pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 194.
  (C:\Users\Games\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [5{C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc} <./Imagenes/Captura3_esctructuradatos.png> <./Imagenes/Captura4_variablesGlobales.png>] [6] (Practica2.aux
+)
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 199.
+ [6{C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc} <./Imagenes/Captura_consola2.png> <./Imagenes/Captura_consola1.png>] [7] (Practica2.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -722,17 +739,17 @@ Package rerunfilecheck Info: File `Practica2.out' has not changed.
 (rerunfilecheck)             Checksum: A728FF607CD6295078802C96CA81762D;474.
  ) 
 Here is how much of TeX's memory you used:
- 21785 strings out of 474486
- 409548 string characters out of 5743755
+ 21804 strings out of 474486
+ 410098 string characters out of 5743755
  1935542 words of memory out of 5000000
- 43682 multiletter control sequences out of 15000+600000
+ 43698 multiletter control sequences out of 15000+600000
  599718 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,87p,542b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,7n,87p,542b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Practica2.pdf (7 pages, 495422 bytes).
+Output written on Practica2.pdf (8 pages, 545244 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
