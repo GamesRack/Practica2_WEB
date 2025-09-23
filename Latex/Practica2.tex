@@ -176,6 +176,51 @@ Utilizamos variables globales para almacenar los objetos y llevar un control del
 El id se inicializa en 0, y se incrementa cada vez que se crea un nuevo objeto.
 Los objetos se almacenan en una lista, que inicialmente esta vacia.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/Captura5_getAll.png}
+\end{figure}
+El primer metodo sera GET{'/items'} el cual permitira obtener todos los items creados que estan en la lista 'envio'.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/Captura6_getindividual.png}
+\end{figure}
+Como segundo metodo tenemos otro GET, pero la diferencia es que este permite obtener un item por su ID.
+Recorrera la lista hasta encontrar el item que coincida con el ID escrito y si lo encuentra lo mostrara.
+Si no lo encuentra, arrojara el error 404 [No\_encontrado].
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/Captura7_post.png}
+\end{figure}
+El tercer metodo es POST('/items') y permite crear nuevos items, accediendo a la variable global para poderla modificar.
+El ID se ira incrementando en 1 y se creara un nuevo item con el nuevo ID y los datos ingresados.
+Si no hay problema, el nuevo item se agregara a la lista de envio y arrojara el codigo 201 [creado].
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/Captura8_put.png}
+\end{figure}
+Como cuarto metodo esta PUT('/items/) el cual reemplazara un item ya existente por completo.
+Recorrera la lista hasta encontrar el ID del item buscado y cuando lo encuentre actualizara el item con los nuevos datos.
+Creara un nuevo objeto con el mismo ID y reemplazara el previo.
+Si no encuentra el item, volvera a arrojar el error 404.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/Captura9_patch.png}
+\end{figure}
+El quinto metodo es PATCH('/items') el cual solo actualizara parcialmente un item por su ID.
+Funcionara igual que PUT, con la diferencia de que este solo actualizara los campos proporcionados en [item\_update].
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/Captura10_patch.png}    
+\end{figure}
+Como ultimo metodo tenemos DELETE('/items') el cual tendra la tarea de borrar los items.
+Recorrera la lista hasta encontrar el ID del item que queremos borrar, y si lo encuentra lo eliminara de la lista.
+Y si no lo encuentra, arrojara error 404.
 
 \begin{thebibliography}{99}
 
