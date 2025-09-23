@@ -67,8 +67,23 @@
     \vspace{1cm}
 \end{titlepage}
 
+\section*{Introducción}
+\subsection*{Objetivo de la práctica:}
+El objetivo de la práctica es implementar los métodos HTTP: PUT, PATCH, GET, DELETE en Python con FastAPI, también realizar pruebas de cada uno de los métodos, poniendo a prueba las respuestas que brindará. La aplicación simulará la gestión de paquetes, es decir, que se puede crear un item nuevo con peso y valor, también se le puede poner un ID para ejecutar las funciones de borrar y actualizar parcialmente por el ID. \\
+
+
+\subsection*{Métodos HTTP:}
+\begin{itemize}
+    \item \textbf{GET:} Este método se utiliza para solicitar datos de un recurso específico. En la práctica, se implementa para obtener la lista completa de paquetes o un paquete específico por su ID.
+    \item \textbf{POST:} Este método se utiliza para enviar datos a un servidor para crear un nuevo recurso. En la práctica, se implementa para crear un nuevo paquete con atributos como peso y valor.
+    \item \textbf{PUT:} Este método se utiliza para actualizar completamente un recurso existente. En la práctica, se implementa para actualizar todos los atributos de un paquete específico identificado por su ID.
+    \item \textbf{PATCH:} Este método se utiliza para actualizar parcialmente un recurso existente. En la práctica, se implementa para modificar solo algunos atributos de un paquete específico identificado por su ID.
+    \item \textbf{DELETE:} Este método se utiliza para eliminar un recurso específico. En la práctica, se implementa para eliminar un paquete identificado por su ID. \cite{ref1}
+\end{itemize}
+
+
 \section{Diagrama UML}
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{Imagenes/Diagrama UML.png}
 \end{figure}
@@ -109,4 +124,10 @@ Además se tiene una estrcutura para actualizar los datos parcialmente, los camp
 Utilizamos variables globales para almacenar los objetos y llevar un control del id.
 El id se inicializa en 0, y se incrementa cada vez que se crea un nuevo objeto.
 Los objetos se almacenan en una lista, que inicialmente esta vacia.
+
+
+\begin{thebibliography}{1}
+\bibitem{ref1} Métodos de petición HTTP. (s/f). MDN Web Docs. Recuperado el 23 de septiembre de 2025, de \url{https://developer.mozilla.org/es/docs/Web/HTTP/Reference/Methods}
+
+\end{thebibliography}
 \end{document}
