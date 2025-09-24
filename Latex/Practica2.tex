@@ -249,6 +249,19 @@ Para finalizar, se mostrara el resultado de la pagina y como aparecen los metodo
 
 \begin{figure}[H]
     \centering
+    \includegraphics[width=1\textwidth]{Imagenes/NODOCS.png}
+\end{figure}
+Debemos aclarar que no basta con poner la url \url{http://127.0.0.1:8000}, ya que de hacer esto, saltara un error bajo el nombre de detail.
+Y se refiere a que FastAPI no sabe que operacion ejecutar con esa direccion y por eso respondera NOT\_FOUND.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Imagenes/DOCS.png}
+\end{figure}
+Hay que agregar la terminacion /docs para que se pueda crear la documentacion y ya podamos interactuar con ella.
+
+\begin{figure}[H]
+    \centering
     \includegraphics[width=1\textwidth]{Imagenes/Inicio pagina.png}
 \end{figure}
 Lo primero que veremos sera el titulo de la practica junto con una descripcion de la API.
