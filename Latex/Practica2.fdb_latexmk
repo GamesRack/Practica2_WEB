@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758725657.9128 "c:/Users/Games/Documents/Codigos/Python/Practica2_Web/Practica2_WEB/Latex/Practica2.tex" "Practica2.pdf" "Practica2" 1758725662.68546 0
+["pdflatex"] 1758732991.04517 "c:/Users/Games/Documents/Codigos/Python/Practica2_Web/Practica2_WEB/Latex/Practica2.tex" "Practica2.pdf" "Practica2" 1758732996.31676 0
   "C:/Users/Games/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1758554177 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Games/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1758435296 24225046 3de9fab330c0d264c08cdcc3e3c21f49 ""
   "C:/Users/Games/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -183,10 +183,10 @@
   "Imagenes/POST2.png" 1758725064 25479 227d02795ef57d050d7c711a4b4480c2 ""
   "Imagenes/PUT1.png" 1758725064 33007 377048c58d258da33f5e0dd53a1c1401 ""
   "Imagenes/PUT2.png" 1758725064 24182 9a575a67657b8a587aaa5d31ef988461 ""
-  "Practica2.aux" 1758725662 1356 2afb87cc5260546a4cc7e68f62ecf48c "pdflatex"
-  "Practica2.out" 1758725662 659 2bb50c9189953c2807f35c0a4fc4df43 "pdflatex"
-  "Practica2.tex" 1758725653 16190 860b742097016d4cfe45f2482cc1d690 ""
-  "c:/Users/Games/Documents/Codigos/Python/Practica2_Web/Practica2_WEB/Latex/Practica2.tex" 1758725653 16190 860b742097016d4cfe45f2482cc1d690 ""
+  "Practica2.aux" 1758732995 1436 266a8c7abeb57f38d91f1d236a0659de "pdflatex"
+  "Practica2.out" 1758732995 659 2bb50c9189953c2807f35c0a4fc4df43 "pdflatex"
+  "Practica2.tex" 1758732985 16249 698023f8623c14a53711d82103b64a09 ""
+  "c:/Users/Games/Documents/Codigos/Python/Practica2_Web/Practica2_WEB/Latex/Practica2.tex" 1758732985 16249 698023f8623c14a53711d82103b64a09 ""
   (generated)
   "Practica2.aux"
   "Practica2.log"
